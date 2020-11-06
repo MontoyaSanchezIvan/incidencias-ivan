@@ -1,0 +1,54 @@
+img{
+    float: right;
+    padding-right:1.5%;
+    padding-top: 0.5%;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+
+.nombre_usuario{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:0.5%;
+    color: cornflowerblue;
+    size: 2px;
+   text-decoration: underline overline coral;
+}
+
+.titulo{
+    font: sans-serif;
+}
+
+#body{
+    background-color: #D8CEFF ;
+}
+
+.tabla{
+    width: 280;
+    text-align: right;
+    background-color: beige;
+    margin-left: 10%;
+
+}
+
+tr{
+    text-align: center;
+    padding: 8%;
+}
+
+.hola{
+       text-align: center;
+}
+
+.copy{
+    text-align: center;
+}
+
+.nueva_incidencia{
+    text-align: center;
+}
+
