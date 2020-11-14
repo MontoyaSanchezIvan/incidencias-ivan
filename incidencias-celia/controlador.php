@@ -2,6 +2,7 @@
 include_once("vista.php");
 include_once("modelos/usuario.php");
 include_once("modelos/incidencia.php");
+include_once("modelos/seguridad.php");
 
 class Controlador
 {
@@ -22,11 +23,15 @@ class Controlador
 	/**
 	 * Muestra el formulario de login
 	 */
-	public function formularioLogin() {
+	/*public function formularioLogin() {
 		if (!isset($_SESSION['id']))
 			$this->vista->mostrar("usuario/formularioLogin");
 		else
 			$this->mostrarListaIncidencias();
+	}*/
+
+	public function formularioLogin(){
+		$this->vista->mostrar("usuario/formularioLogin");
 	}
 
 	/**
